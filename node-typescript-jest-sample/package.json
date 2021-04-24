@@ -1,0 +1,20 @@
+{
+  "name": "node-jest-typescript-sample",
+  "version": "1.0.0",
+  "description": "Node Typescript Jest Testing Sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/jest/bin/jest --passWithNoTests",
+    "test:watch": "node ./node_modules/jest/bin/jest --watch",
+    "compile": "node ./node_modules/typescript/bin/tsc -p ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.13",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {}
+}
